@@ -1,0 +1,16 @@
+{
+  "name": "queue-control.web-api",
+  "version": "0.0.0",
+  "description": "QueueControl.WebApi",
+  "main": "app.js",
+  "author": {
+    "name": "hj",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "mongodb": "^2.1.16",
+    "stylus": "*"
+  }
+}

@@ -1,0 +1,79 @@
+﻿<html data-ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Animations-->
+    <link rel="stylesheet" href="Components/Animations/Waiting.css">
+    <link rel="stylesheet" href="Components/Animations/Hover.css">
+    <link rel="stylesheet" href="Components/Animations/Fade.css">
+
+    <script src="Scripts/jquery-1.12.2.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/angular-animate.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.0.js"></script>
+
+    <script src="Scripts/ngStorage.min.js"></script>
+
+
+    <!--ui bootstrap-->
+    <script src="Components/ui-bootstrap/ui-bootstrap-tpls-1.2.5.js"></script>
+
+
+    <script src="allScripts.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="Components/bootstrap/Lumen/Lumen.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!--<script src="Scripts/angular.js"></script>
+    <script src="Controllers/MyController.js"></script>
+
+    <script src="app.js"></script>-->
+</head>
+<body class="col-xs-8 col-xs-offset-2" style="background-color: rgba(0, 148, 255, 0.05)">
+    <div id="navBar">
+        <nav class="navbar navbar-default">
+            <img src="Resources/Images/husky-dog2.jpg" width="100%"/>
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#/welcome">QueueControl</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#/welcome">Animals</a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#/myuploads">My uploads</a></li>
+                        <li class="active"><a href="#/upload">Upload</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    <div data-ng-controller="MainController">
+
+        <div ng-view id="mainView" layout="column">
+
+        </div>
+
+    </div>
+
+</body>
+</html>

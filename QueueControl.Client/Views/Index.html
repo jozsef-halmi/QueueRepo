@@ -1,0 +1,49 @@
+﻿<div class="animation-container">
+   
+    <div class="panel panel-default">
+        <div class="panel-heading text-center"><h2 style="margin:0; padding:0;">Animals</h2></div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-4 form-group col-md-offset-1">
+                    Search: <input class="form-control" ng-model="ctrl.query" placeholder="Search.." />
+                </div>
+                <div class="col-xs-4 col-md-offset-2  form-group">
+                    Display results on page: <input class="form-control" ng-model="ctrl.animalCount" placeholder="Search.." ng-change="ctrl.filterAnimals()" />
+                </div>
+            </div>
+            <div class="row text-center">
+                <uib-pagination ng-disabled="ctrl.query" ng-model="ctrl.currentPage" ng-if="ctrl.animals" ng-change="ctrl.filterAnimals()"
+                                total-items="ctrl.animals.length"
+                                items-per-page="ctrl.animalCount"
+                                boundary-links="true">
+                </uib-pagination>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="panel panel-default animate" ng-repeat="animal in ctrl.filteredAnimals | filter: ctrl.query">
+        <div class="panel-heading"><h4 class="text-center"><b>{{animal.Name}}</b></h4></div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="zoomin frame col-xs-3">
+                    <img ng-src="{{animal.ImageURL}}" />
+                </div>
+                <div class="col-xs-9">
+                    <div class="row">
+                        <h4 class="col-xs-5 text-center">Contact: {{animal.Contact}}</h4>
+                        <h4 class="col-xs-1 text-center"> |</h4>
+                        <h4 class="col-xs-5 text-center">City: {{animal.City}}</h4>
+                    </div>
+                  
+                    <hr />
+                    <p><i>{{animal.ShortDescription}}</i></p>
+                    <p>{{animal.LongDescription}}</p>
+                    <p>{{animal.IsLost ? 'Lost' : 'Found'}}</p>
+                    <p>Sex: {{animal.Sex}}</p>
+                    <p>Date: {{animal.Date}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

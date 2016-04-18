@@ -1,0 +1,2 @@
+D:\Materials\Personal\QueueApp\QueueControl\QueueControl.WebApi\obj\Debug\QueueControl.WebApi.njsprojResolveAssemblyReference.cache
+D:\Materials\Personal\QueueApp\QueueControl\QueueControl.WebApi\bin\Microsoft.NodejsTools.WebRole.dll

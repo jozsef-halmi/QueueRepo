@@ -1,0 +1,69 @@
+﻿<div>
+    <div class="panel panel-default">
+        <div class="panel-heading text-center"><h2 style="margin:0; padding:0;">Edit animal</h2></div>
+        <div class="panel-body">
+            <div class="row form-group">
+                <div class="col-md-4">
+                    Name:
+                </div>
+                <div class="col-md-8">
+                    <input class="form-control" ng-model="ctrl.name" placeholder="Name of the animal" />
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-md-4">
+                    Short desciption:
+                </div>
+                <div class="col-md-8">
+                    <input class="form-control" ng-model="ctrl.shortDescr" placeholder="Short description" />
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-md-4">
+                    Long description:
+                </div>
+                <div class="col-md-8">
+                    <input class="form-control" ng-model="ctrl.longDescr" placeholder="Long description" />
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-md-4">
+                    Sex:
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" name="singleSelect" ng-model="ctrl.sex">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-md-4">
+                    Lost or found:
+                </div>
+                <div class="col-md-8">
+                    <select class="form-control" name="singleSelect" ng-model="ctrl.type">
+                        <option value="Lost">Lost</option>
+                        <option value="Found">Found</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-md-4">
+                    Image URL:
+                </div>
+                <div class="col-md-8">
+                    <input class="form-control" ng-model="ctrl.imageUrl" placeholder="Image URL" />
+
+                </div>
+            </div>
+
+
+            <div class="row form-group">
+                <div class="col-md-12">
+                    <button class="btn btn-primary" ng-click="ctrl.editAnimal()">Edit animal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

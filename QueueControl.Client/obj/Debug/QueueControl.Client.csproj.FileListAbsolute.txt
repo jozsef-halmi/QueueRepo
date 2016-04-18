@@ -1,0 +1,12 @@
+D:\Materials\Personal\VekonyKliens\QueueControl\QueueControl.Client\bin\QueueControl.Client.dll.config
+D:\Materials\Personal\VekonyKliens\QueueControl\QueueControl.Client\bin\QueueControl.Client.dll
+D:\Materials\Personal\VekonyKliens\QueueControl\QueueControl.Client\bin\QueueControl.Client.pdb
+D:\Materials\Personal\VekonyKliens\QueueControl\QueueControl.Client\obj\Debug\QueueControl.Client.csprojResolveAssemblyReference.cache
+D:\Materials\Personal\VekonyKliens\QueueControl\QueueControl.Client\obj\Debug\QueueControl.Client.dll
+D:\Materials\Personal\VekonyKliens\QueueControl\QueueControl.Client\obj\Debug\QueueControl.Client.pdb
+d:\Materials\Personal\QueueApp\QueueControl\QueueControl.Client\bin\QueueControl.Client.dll.config
+d:\Materials\Personal\QueueApp\QueueControl\QueueControl.Client\bin\QueueControl.Client.dll
+d:\Materials\Personal\QueueApp\QueueControl\QueueControl.Client\bin\QueueControl.Client.pdb
+d:\Materials\Personal\QueueApp\QueueControl\QueueControl.Client\obj\Debug\QueueControl.Client.csprojResolveAssemblyReference.cache
+d:\Materials\Personal\QueueApp\QueueControl\QueueControl.Client\obj\Debug\QueueControl.Client.dll
+d:\Materials\Personal\QueueApp\QueueControl\QueueControl.Client\obj\Debug\QueueControl.Client.pdb
